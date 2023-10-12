@@ -21,6 +21,7 @@ The shuttle board connector details are given in the table below.
 | 12  | SHTLE_COD #7         | 17   | SDA (see note)|  
 | 13  | SHTLE_COD #8         | 16   | IO_3 ( GPIO #3 ) | 
 | 14  | IO_1 ( GPIO #1 )     | 15   | IO_2 ( GPIO #2 ) | 
+                    Table 1: Overview of shuttle board pins and their functions
 
 **Note**:
 

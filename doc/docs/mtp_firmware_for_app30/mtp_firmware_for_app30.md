@@ -1,5 +1,7 @@
 # Media Transfer Protocol (MTP) firmware for Application Board 3.0
 
+[comment]: <> (This is not exactly as the pdf)
+
 The external memory chip W25M02/W25N02 on APP3.0 is based on NAND flash.
 
 FAT filesystem on NAND flash memory results in a complicated solution which uses of lot of RAM.

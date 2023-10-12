@@ -3,30 +3,39 @@
 Bosch Sensortec offers a toolkit for evaluation of it’s sensor products.The toolkit consisting of 3
 elements:
 
-1. A sensor specific shuttle board also known as breakout board.
-APP3.0 shuttle boards also known as mini shuttle boards has smaller form factor when compared with APP2.0 shuttle board.
+1. A sensor specific shuttle board also known as breakout board. APP3.0 shuttle boards also
+known as mini shuttle boards has smaller form factor when compared with APP2.0 shuttle
+board.
 
 <figure markdown>
-  ![Image: APP2.0 shuttle board](bma222e_1_shuttle_board.jpg){ width="300"}
-  <figcaption>APP2.0 shuttle board</figcaption>
-</figure>
-<figure markdown>
-  ![Image: APP3.0 shuttle board](bma423_shuttle_board.jpg){ width="300"}
-  <figcaption>app3.0 shuttle board</figcaption>
+
+  ![Image: APP2.0 shuttle board alt <](bma222e_1_shuttle_board.jpg){ width="300"} 
+
+  ![Image: APP3.0 shuttle board alt >](bma423_shuttle_board.jpg){ width="300"}
+  <figcaption>APP2.0/3.0 shuttle board</figcaption>
 </figure>
 
-2. [Application Board](https://www.bosch-sensortec.com/software-tools/tools/application-board-3-0/) has a connector for the shuttle board and serves as interface translator from the sensor interface (I~2~C or SPI) to a USB interface, allowing PC software to communicate with the sensor on the shuttle.
+
+1. [Application Board](https://www.bosch-sensortec.com/software-tools/tools/application-board-3-0/) has a connector for the shuttle board and serves as interface translator from the sensor interface (I~2~C or SPI) to a USB interface, allowing PC software to communicate with the sensor on the shuttle.
 
 <figure markdown>
-  ![Image: Application Board 2.0](application_board_20.png){ width="300"}
-  <figcaption>Application Board 2.0</figcaption>
-</figure>
-<figure markdown>
-  ![Image: Application Board 3.0](application_board_30.jpg){ width="300"}
-  <figcaption>Application Board 3.0</figcaption>
+
+  ![Image: Application Board 2.0 alt <](application_board_20.png){ width="300"}
+
+  ![Image: Application Board 3.0 alt >](application_board_30.jpg){ width="300"}
+  <figcaption>Application Board 2.0/3.0</figcaption>
 </figure>
 
-3. On the PC side, Bosch Sensortec provides the software packages Development Desktop 2.0 and COINES to connect to the sensor on the Application Board.
+1. [Nicla Sense ME](https://store.arduino.cc/products/nicla-sense-me) board combines four state-of-the-art sensors from Bosch Sensortec (BHI260AP,
+BMP390, BMM150 and BME688) in the Arduino ecosystem.
+
+<figure markdown>
+
+  ![Image: Nicla Sense ME](nicla_sense_me.png){ width="300"}
+  <figcaption>Nicla Sense ME</figcaption>
+</figure>
+
+1. On the PC side, Bosch Sensortec provides the software packages Development Desktop 2.0 and COINES to connect to the sensor on the Application Board.
 
     - Development Desktop 2.0 provides a GUI which allows to configure the sensor, plot and export streamed sensor data.
 

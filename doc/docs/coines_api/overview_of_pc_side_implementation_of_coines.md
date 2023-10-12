@@ -5,8 +5,7 @@ The SensorAPI , an abstraction layer written in C makes it much more convenient 
 
 For making use of the SensorAPI, three function pointers must be set to the appropriate read/write functions of the selected bus on the system (either I\textsuperscript{2}C or SPI), as well as one function pointer to a system's function causing delays in milliseconds.
 
-In order to execute C code using SensorAPI on a PC, the coinesAPI provides the mentioned read,write,delay functions.
-These functions are wrapper functions, embedding the actual SensorAPI payloads into a transport package, sending this via USB to the APP2.0, where the payload is translated into corresponding SPI or I\textsuperscript{2}C messages and sent to the sensor on the shuttle board.
+In order to execute C code using SensorAPI on a PC, the coinesAPI provides the mentioned read,write,delay functions. These functions are wrapper functions, embedding the actual SensorAPI payloads into a transport package, sending this via USB to the APP2.0, where the payload is translated into corresponding SPI or I\textsuperscript{2}C messages and sent to the sensor on the shuttle board.
 The mapping would look similar to the one below.
 
 ```C
