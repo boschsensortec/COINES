@@ -20,9 +20,8 @@ board.
 
 <figure markdown>
 
-  ![Image: Application Board 2.0 alt <](application_board_20.png){ width="150"}
-
-  ![Image: Application Board 3.0 alt >](application_board_30.jpg){ width="150"}
+  |![Image: Application Board 2.0 alt <](application_board_20.png){ width="250"}|![Image: Application Board 3.0 alt >](application_board_30.jpg){ width="250"}|
+  |-|-|
   <figcaption>Fig. 12: Application Board 2.0/3.0</figcaption>
 </figure>
 
