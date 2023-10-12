@@ -22,17 +22,21 @@ Files in APP3.0 board's NAND flash memory can be viewed using the USB MTP firmwa
 Supported on Windows, Linux, Android (via USB OTG) and macOS
 
 <figure markdown>
+
   ![Image: MTP Windows](mtp_windows.png){ width="700"}
 </figure>
 
 <figure markdown>
+
   ![Image: MTP Ubuntu Nautilus](mtp_ubuntu_nautilus.png){ width="700"}
 </figure>
 
 <figure markdown>
+
   ![Image: MTP Android 2](mtp_android_2.png){ width="700"}
 </figure>
 
 <figure markdown>
+
   ![Image: MTP Android 3](mtp_android_3.png){ width="700"}
 </figure>

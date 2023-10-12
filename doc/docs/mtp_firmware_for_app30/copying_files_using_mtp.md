@@ -6,6 +6,7 @@
 - The device will list all the available files and all required files can be copied.
 
 <figure markdown>
-  ![Image: Copy data log files to the PC over USB MTP](mtp_windows_explorer.png){ width="700"}
-  <figcaption>Copy data log files to the PC over USB MTP</figcaption>
+
+  ![Image: Copy data log files to the PC over USB MTP](mtp_windows.png){ width="700"}
+  <figcaption>Fig. 15: Copy data log files to the PC over USB MTP</figcaption>
 </figure>

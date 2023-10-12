@@ -16,6 +16,7 @@ Example: `printf("\%d \%d \%d\textbackslash n", lower_limit, sensor_data, upper_
 Example: `printf("\%d\textbackslash n", (pressure - 99000));`
 
 <figure markdown>
+
   ![Image: Accelerometer sensor data on Arduino Serial Plotter](arduino_serial_plotter.png){ width="700"}
-  <figcaption>Accelerometer sensor data on Arduino Serial Plotter</figcaption>
+  <figcaption>Fig. 14: Accelerometer sensor data on Arduino Serial Plotter</figcaption>
 </figure>
