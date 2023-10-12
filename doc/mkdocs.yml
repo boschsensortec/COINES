@@ -142,7 +142,7 @@ nav:
   - Accessing the Application Board using Python: 
     - Introduction to coinespy library: 'py_api/introduction_to_coinespy_library.md'
     - Installation: 'py_api/installation.md'
-    - coinespy API description: # comments in the python files
+    - coinespy API description: 
       - coinespy API description: 'py_api/coinespy_api_description/coinespy_api_description.md'
       - coinespy API calls:Interface and board information: 'py_api/coinespy_api_description/coines_api_calls/interface_and_board_information.md'
       - coinespy API calls:GPIO oriented calls: 'py_api/coinespy_api_description/coines_api_calls/gpio_oriented_calls.md'
@@ -153,7 +153,7 @@ nav:
       - Error Codes: 'py_api/coinespy_api_description/error_codes.md'
   - FAQ: 'faq.md'
   - Legal disclaimer: 'legal_disclaimer.md'
-  - Document history and modifications: #no .md file
+  - Document history and modifications: 
 
 markdown_extensions:
   - toc:
