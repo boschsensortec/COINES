@@ -129,8 +129,8 @@ nav:
   - USB/BLE DFU bootloader: 
     - USB/BLE DFU bootloader: 'usb_ble_dfu_bootloader/usb_ble_dfu_bootloader.md'
     - Key Features: 
-      - USB DFU: 'sb_ble_dfu_bootloader/key_features/usb_dfu.md'
-      - BLE DFU: 'sb_ble_dfu_bootloader/key_features/ble_dfu.md'
+      - USB DFU: 'usb_ble_dfu_bootloader/key_features/usb_dfu.md'
+      - BLE DFU: 'usb_ble_dfu_bootloader/key_features/ble_dfu.md'
     - Invoking the Bootloader: 'usb_ble_dfu_bootloader/invoking_the_bootloader.md'
     - Using the Bootloader via USB: 'usb_ble_dfu_bootloader/using_with_usb.md'
     - Using the Bootloader via BLE: 'usb_ble_dfu_bootloader/using_with_ble.md'
