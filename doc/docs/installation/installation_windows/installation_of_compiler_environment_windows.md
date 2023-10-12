@@ -17,10 +17,10 @@ Make sure you have checked 'Add path to environmental variable'
 
 <figure markdown>
   ![Image: TDM-GCC installation dialog](windows_tdm_gcc_installation_dialog.png){ width="500"}
-  <figcaption>TDM-GCC installation dialog</figcaption>
+  <figcaption>Fig. 6: TDM-GCC installation dialog</figcaption>
 </figure>
 
 <figure markdown>
   ![Image: GNU ARM Toolchain installation](windows_gnu_arm_toolchain_installation.png){ width="500"}
-  <figcaption>GNU ARM Toolchain installation</figcaption>
+  <figcaption>Fig. 7: GNU ARM Toolchain installation</figcaption>
 </figure>

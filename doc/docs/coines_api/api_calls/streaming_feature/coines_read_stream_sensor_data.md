@@ -17,8 +17,9 @@ Arguments:
 Example of a packet:
 
 <figure markdown>
+
   ![Image: Format of streaming packages](streaming_sample.png){ width="700"}
-  <figcaption>Format of streaming packages</figcaption>
+  <figcaption>Fig. 13: Format of streaming packages</figcaption>
 </figure>
 
 In the above figure, the following meaning apply to the mentioned abreviations:
