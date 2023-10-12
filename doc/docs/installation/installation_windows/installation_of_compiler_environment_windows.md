@@ -1,14 +1,4 @@
-# Installation (Windows)
-
-## Installation of COINES
-
-- Download the lastest version of COINES from Bosch Sensortec's website in the "Downloads" section
-- Run the Installer
-- Accept the End User License Agreement and click Next
-- Click Install to start Installation
-- Click Start --> All  programs --> COINES --> examples --> respective sensors to view examples
-
-## Installation of compiler environment
+# Installation of compiler environment
 
 COINES C examples can be built using GNU C compiler (GCC).
 There are various distributions of GCC.

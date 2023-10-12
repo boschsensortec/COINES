@@ -19,3 +19,5 @@ Read firmware from RAM memory using following command
 Read device serial number/ BLE MAC address
 
 - dfu-util -l
+
+    Note: Not applicable for Nicla Sense ME board

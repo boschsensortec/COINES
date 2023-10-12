@@ -33,30 +33,92 @@ extra:
 
 nav:
   - Introduction: 'index.md'
-  - Acessing the sensor on Application Board using C and SensorAPI:
+  - Accessing the sensor on the Application Board using C and SensorAPI:
     - Introduction to COINES: 'accessing_the_sensor_on_application_board/introduction_to_coines.md'
     - Working Principles:
       - Running examples on PC side: 'accessing_the_sensor_on_application_board/running_examples_on_pc_side.md'
       - Running examples directly on the MCU of the Application board: 'accessing_the_sensor_on_application_board/running_examples_directly_on_the_mcu_of_the_application_board.md'
-  - Installation:
+  - Accessing the sensors on Nicla Sense ME using C and SensorAPI: 
+    - COINES on Nicla Sense ME: 'accessing_the_sensor_on_nicla_sense_me/coines_on_nicla_sense_me.md'
+  - Installation: 
     - System requirements: 'installation/system_requirements.md'
-    - Windows: 'installation/windows.md'
-    - Linux / MacOS: 'installation/linux_macos.md'
-  - Quickstart:
-    - Compiling and executing code: 'quickstart/compiling_and_executing_code.md'
+    - Installation (Windows):
+      - Installation of COINES: 'installation/installation_windows/installation_of_coines_windows.md'
+      - Installation of compiler environment: 'installation/installation_windows/installation_of_coines_windows.md'
+    - Installation (Linux / MacOS): 
+      - Installation of COINES: 'installation/installation_linux_macOS/installation_of_coines_linux_macOS.md'
+      - Installation of compiler environment: 'installation/installation_linux_macOS/installation_of_compiler_environment_linux_macOS.md'
+  - Quick start guide:
+    - Compiling and executing code (command line): 'quickstart/compiling_and_executing_code.md'
     - Cross compiling and downloading example to Application Board's microcontroller: 'quickstart/cross_compiling_and_downloading_example_to_application_board_microcontroller.md'
+    - Cross compiling and downloading example to Nicla Sense ME's microcontroller: 'quickstart/cross_compiling_and_downloading_example_to_nicla_sense_me_microcontroller.md'
     - Eclipse project for examples: 'quickstart/eclipse_project_for_examples.md'
   - coinesAPI description:
     - Overview of PC side implementations of COINES: 'coines_api/overview_of_pc_side_implementation_of_coines.md'
-    - GPIO Mapping:
-      - APP2.0 shuttle board pins: 'coines_api/gpio_mapping/app20_shuttle_board.md'
-      - APP3.0 shuttle board pins: 'coines_api/gpio_mapping/app30_shuttle_board.md'
-    - coinesAPI calls:
-      - Interface and board information: 'coines_api/api_calls/interface_and_board_information.md'
-      - GPIO oriented calls: 'coines_api/api_calls/gpio_oriented_calls.md'
-      - Sensor communication: 'coines_api/api_calls/sensor_communication.md'
-      - Streaming feature: 'coines_api/api_calls/streaming_feature.md'
-      - Other useful APIs: 'coines_api/api_calls/other.md'
+    - GPIO Mapping of APP2.0 shuttle board pins: 'coines_api/gpio_mapping/app20_shuttle_board.md'
+    - GPIO Mapping of APP3.0 shuttle board pins: 'coines_api/gpio_mapping/app30_shuttle_board.md'
+    - coinesAPI calls:Interface and board information: 
+      - coines_open_comm_intf: 'coines_api/api_calls/interface_and_board_information/coines_open_comm_intf.md'
+      - coines_close_comm_intf: 'coines_api/api_calls/interface_and_board_information/coines_close_comm_intf.md'
+      - coines_get_board_info: 'coines_api/api_calls/interface_and_board_information/coines_get_board_info.md'
+    - coinesAPI calls:GPIO oriented calls: 
+      - coines_set_pin_config: 'coines_api/api_calls/gpio_oriented_calls/coines_set_pin_config.md'
+      - coines_get_pin_config: 'coines_api/api_calls/gpio_oriented_calls/coines_get_pin_config.md'
+      - coines_set_shuttleboard_vdd_vddio_config: 'coines_api/api_calls/gpio_oriented_calls/coines_set_shuttleboard_vdd_vddio_config.md'
+    - coinesAPI calls:Sensor communication: 
+      - coines_config_i2c_bus: 'coines_api/api_calls/sensor_communication/coines_config_i2c_bus.md'
+      - coines_config_spi_bus: 'coines_api/api_calls/sensor_communication/coines_config_spi_bus.md'
+      - coines_config_i2s_bus: 'coines_api/api_calls/sensor_communication/coines_config_i2s_bus.md'
+      - coines_deconfig_spi_bus: 'coines_api/api_calls/sensor_communication/coines_deconfig_spi_bus.md'
+      - coines_deconfig_i2c_bus: 'coines_api/api_calls/sensor_communication/coines_deconfig_i2c_bus.md'
+      - coines_deconfig_i2s_bus: 'coines_api/api_calls/sensor_communication/coines_deconfig_i2s_bus.md'
+      - coines_write_i2c: 'coines_api/api_calls/sensor_communication/coines_write_i2c.md'
+      - coines_read_i2c: 'coines_api/api_calls/sensor_communication/coines_read_i2c.md'
+      - coines_i2c_set: 'coines_api/api_calls/sensor_communication/coines_i2c_set.md'
+      - coines_i2c_get: 'coines_api/api_calls/sensor_communication/coines_i2c_get.md'
+      - coines_write_spi: 'coines_api/api_calls/sensor_communication/coines_write_spi.md'
+      - coines_read_spi: 'coines_api/api_calls/sensor_communication/coines_read_spi.md'
+      - coines_config_word_spi_bus: 'coines_api/api_calls/sensor_communication/coines_config_word_spi_bus.md'
+      - coines_write_16bit_spi: 'coines_api/api_calls/sensor_communication/coines_write_16bit_spi.md'
+      - coines_read_16bit_spi: 'coines_api/api_calls/sensor_communication/coines_read_16bit_spi.md'
+      - coines_delay_msec: 'coines_api/api_calls/sensor_communication/coines_delay_msec.md'
+      - coines_delay_usec: 'coines_api/api_calls/sensor_communication/coines_delay_usec.md'
+    - coinesAPI calls:Streaming feature:
+      - coinesAPI calls:Streaming feature: 'coines_api/api_calls/streaming_feature.md'
+      - coines_config_streaming: 'coines_api/api_calls/streaming_feature/coines_config_streaming.md'
+      - coines_start_stop_streaming: 'coines_api/api_calls/streaming_feature/coines_start_stop_streaming.md'
+      - coines_read_stream_sensor_data: 'coines_api/api_calls/streaming_feature/coines_read_stream_sensor_data.md'
+      - coines_trigger_timer: 'coines_api/api_calls/streaming_feature/coines_trigger_timer.md'
+    - coinesAPI calls:Other useful APIs:
+      - coines_get_millis: 'coines_api/api_calls/other_api/coines_get_millis.md'
+      - coines_get_micro_sec: 'coines_api/api_calls/other_api/coines_get_micro_sec.md'
+      - coines_attach_interrupt: 'coines_api/api_calls/other_api/coines_attach_interrupt.md'
+      - coines_detach_interrupt: 'coines_api/api_calls/other_api/coines_detach_interrupt.md'
+      - coines_intf_available: 'coines_api/api_calls/other_api/coines_intf_available.md'
+      - coines_intf_connected: 'coines_api/api_calls/other_api/coines_intf_connected.md'
+      - coines_flush_intf: 'coines_api/api_calls/other_api/coines_flush_intf.md'
+      - coines_read_intf: 'coines_api/api_calls/other_api/coines_read_intf.md'
+      - coines_write_intf: 'coines_api/api_calls/other_api/coines_write_intf.md'
+      - coines_get_version: 'coines_api/api_calls/other_api/coines_get_version.md'
+      - coines_soft_reset: 'coines_api/api_calls/other_api/coines_soft_reset.md'
+      - coines_read_temp_data: 'coines_api/api_calls/other_api/coines_read_temp_data.md'
+      - coines_read_bat_status: 'coines_api/api_calls/other_api/coines_read_bat_status.md'
+      - coines_ble_config: 'coines_api/api_calls/other_api/coines_ble_config.md'
+      - coines_set_led: 'coines_api/api_calls/other_api/coines_set_led.md'
+      - coines_timer_config: 'coines_api/api_calls/other_api/coines_timer_config.md'
+      - coines_timer_deconfig: 'coines_api/api_calls/other_api/coines_timer_deconfig.md'
+      - coines_timer_start: 'coines_api/api_calls/other_api/coines_timer_start.md'
+      - coines_timer_stop: 'coines_api/api_calls/other_api/coines_timer_stop.md'
+      - coines_get_realtime_usec: 'coines_api/api_calls/other_api/coines_get_realtime_usec.md'
+      - coines_delay_realtime_usec: 'coines_api/api_calls/other_api/coines_delay_realtime_usec.md'
+      - coines_attach_timed_interrupt: 'coines_api/api_calls/other_api/coines_attach_timed_interrupt.md'
+      - coines_detach_timed_interrupt: 'coines_api/api_calls/other_api/coines_detach_timed_interrupt.md'
+      - coines_echo_test: 'coines_api/api_calls/other_api/coines_echo_test.md'
+      - coines_shuttle_eeprom_write: 'coines_api/api_calls/other_api/coines_shuttle_eeprom_write.md'
+      - coines_shuttle_eeprom_read: 'coines_api/api_calls/other_api/coines_shuttle_eeprom_read.md'
+      - coines_yield: 'coines_api/api_calls/other_api/coines_yield.md'
+      - coines_execute_critical_region: 'coines_api/api_calls/other_api/coines_execute_critical_region.md'
+      - coines_scan_ble_devices: 'coines_api/api_calls/other_api/coines_scan_ble_devices.md'
   - Extending the usage of the example files: 
     - Simple data logging: 'extending_the_usage_of_example_files/simple_data_logging.md'
     - Data plotting and visualization: 'extending_the_usage_of_example_files/data_plotting_and_visualization.md'
@@ -66,7 +128,9 @@ nav:
     - Copying the files using MTP: 'mtp_firmware_for_app30/copying_files_using_mtp.md'
   - USB/BLE DFU bootloader: 
     - USB/BLE DFU bootloader: 'usb_ble_dfu_bootloader/usb_ble_dfu_bootloader.md'
-    - Key Features: 'usb_ble_dfu_bootloader/key_features.md'
+    - Key Features: 
+      - USB DFU: 'sb_ble_dfu_bootloader/key_features/usb_dfu.md'
+      - BLE DFU: 'sb_ble_dfu_bootloader/key_features/ble_dfu.md'
     - Invoking the Bootloader: 'usb_ble_dfu_bootloader/invoking_the_bootloader.md'
     - Using the Bootloader via USB: 'usb_ble_dfu_bootloader/using_with_usb.md'
     - Using the Bootloader via BLE: 'usb_ble_dfu_bootloader/using_with_ble.md'
@@ -74,9 +138,22 @@ nav:
     - Updating bootloader: 'updating_bootloader_dd_firmware_and_mtp_firmware/bootloader.md'
     - Updating DD firmware: 'updating_bootloader_dd_firmware_and_mtp_firmware/dd_firmware.md'
     - Updating MTP firmware: 'updating_bootloader_dd_firmware_and_mtp_firmware/mtp_firmware.md'
-  - Accessing the Application Board using Python: 'py_api/py_api.md'
+    - Updating COINES Bridge firmware and MTP firmware on Nicla Sense ME Board: 'updating_bootloader_dd_firmware_and_mtp_firmware/coines_bridge_firmware_on_nicla_sense_me.md'
+  - Accessing the Application Board using Python: 
+    - Introduction to coinespy library: 'py_api/introduction_to_coinespy_library.md'
+    - Installation: 'py_api/installation.md'
+    - coinespy API description: # comments in the python files
+      - coinespy API description: 'py_api/coinespy_api_description/coinespy_api_description.md'
+      - coinespy API calls:Interface and board information: 'py_api/coinespy_api_description/coines_api_calls/interface_and_board_information.md'
+      - coinespy API calls:GPIO oriented calls: 'py_api/coinespy_api_description/coines_api_calls/gpio_oriented_calls.md'
+      - coinespy API calls:Sensor communication: 'py_api/coinespy_api_description/coines_api_calls/sensor_communication.md'
+      - coinespy API calls:Streaming feature: 'py_api/coinespy_api_description/coines_api_calls/streaming_feature.md' 
+      - coinespy API calls:Other useful APIs: 'py_api/coinespy_api_description/coines_api_calls/other.md'
+      - Definition of constants: 'py_api/coinespy_api_description/definition_of_constants.md'
+      - Error Codes: 'py_api/coinespy_api_description/error_codes.md'
   - FAQ: 'faq.md'
   - Legal disclaimer: 'legal_disclaimer.md'
+  - Document history and modifications: #no .md file
 
 markdown_extensions:
   - toc:

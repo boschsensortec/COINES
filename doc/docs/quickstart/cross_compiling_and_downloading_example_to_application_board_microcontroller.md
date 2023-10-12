@@ -4,25 +4,22 @@
 2. Connect the Application board via USB, with the sensor shuttle board mounted.
 3. Open the command prompt or the terminal.
 4. Use the command `cd` to go to the directory where the example that is to be built is located. 
-5. Type `mingw32-make TARGET=MCU_APP20 download`[^1].
-Other available options are:
-    - Cross-compile for APP2.0 board:  
-    `mingw32-make TARGET=MCU_APP20`
-    - Download example to APP2.0 MCU RAM:  
-    `mingw32-make LOCATION=RAM TARGET=MCU\_APP20 download`
-    - Download example to APP2.0 MCU FLASH:  
-    `mingw32-make LOCATION=FLASH TARGET=MCU\_APP20 download`
-    - Download example to APP3.0 MCU RAM:  
-    `mingw32-make LOCATION=RAM TARGET=MCU\_APP30 download`
-    - Download example to APP3.0 MCU FLASH[^2]:  
-    `mingw32-make LOCATION=FLASH TARGET=MCU\_APP30 download`
-    - Compile for PC (Default):  
-    `mingw32-make TARGET=PC`
-    - Run an example already residing in APP2.0 Flash memory:  
-    `mingw32-make run`
+5. Type `mingw32-make TARGET=MCU_APP20 download`. Other available options are:
+
+    |Cross-compile for APP2.0 board | `mingw32-make TARGET=MCU_APP20`|
+    |--------|--------|
+    |**Download example to APP2.0 MCU RAM**| **`mingw32-make LOCATION=RAM TARGET=MCU\_APP20 download`**|
+    |**Download example to APP2.0 MCU FLASH**| **`mingw32-make LOCATION=FLASH TARGET=MCU\_APP20 download`**|
+    |**Download example to APP3.0 MCU RAM**| **`mingw32-make LOCATION=RAM TARGET=MCU\_APP30 download`**|
+    |**Download example to APP3.0 MCU FLASH***| **`mingw32-make LOCATION=FLASH TARGET=MCU\_APP30 download`**|
+    |**Download example to APP3.0 MCU FLASH**| **`mingw32-make LOCATION=FLASH TARGET=MCU\_APP30 download`**|
+    |**Compile for PC (Default)**| **`mingw32-make TARGET=PC`**|
+    |**Run an example already residing in APP2.0 Flash memory**| **`mingw32-make run`**|
   
-[^1]: Linux/MacOS/Cygwin/MSYS2 users can use `make`
-[^2]: Downloading COINES example to APP3.0 Flash memory will overwrite default firmware.
+ 
+Linux/MacOS/Cygwin/MSYS2 users can use `make`
+
+**NOTE**: Downloading COINES example to APP3.0 Flash memory will overwrite default firmware.
 
 
 6. Use a Serial Terminal application to view output.
