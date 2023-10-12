@@ -44,7 +44,7 @@ nav:
     - System requirements: 'installation/system_requirements.md'
     - Installation (Windows):
       - Installation of COINES: 'installation/installation_windows/installation_of_coines_windows.md'
-      - Installation of compiler environment: 'installation/installation_windows/installation_of_coines_windows.md'
+      - Installation of compiler environment: 'doc\docs\installation\installation_windows\installation_of_compiler_environment_windows.md'
     - Installation (Linux / MacOS): 
       - Installation of COINES: 'installation/installation_linux_macOS/installation_of_coines_linux_macOS.md'
       - Installation of compiler environment: 'installation/installation_linux_macOS/installation_of_compiler_environment_linux_macOS.md'
