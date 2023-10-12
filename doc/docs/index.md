@@ -9,10 +9,10 @@ board.
 
 <figure markdown>
 
-  ![Image: APP2.0 shuttle board alt <](bma222e_1_shuttle_board.jpg){ width="150"} 
+  ![Image: APP2.0 shuttle board alt <](bma222e_1_shuttle_board.jpg){ width="100"} 
 
-  ![Image: APP3.0 shuttle board alt >](bma423_shuttle_board.jpg){ width="150"}
-  <figcaption>APP2.0/3.0 shuttle board</figcaption>
+  ![Image: APP3.0 shuttle board alt >](bma423_shuttle_board.jpg){ width="100"}
+  <figcaption>Fig. 1: APP2.0/3.0 shuttle board</figcaption>
 </figure>
 
 
@@ -23,7 +23,7 @@ board.
   ![Image: Application Board 2.0 alt <](application_board_20.png){ width="150"}
 
   ![Image: Application Board 3.0 alt >](application_board_30.jpg){ width="150"}
-  <figcaption>Application Board 2.0/3.0</figcaption>
+  <figcaption>Fig. 12: Application Board 2.0/3.0</figcaption>
 </figure>
 
 1. [Nicla Sense ME](https://store.arduino.cc/products/nicla-sense-me) board combines four state-of-the-art sensors from Bosch Sensortec (BHI260AP,
@@ -32,7 +32,7 @@ BMP390, BMM150 and BME688) in the Arduino ecosystem.
 <figure markdown>
 
   ![Image: Nicla Sense ME](nicla_sense_me.png){ width="300"}
-  <figcaption>Nicla Sense ME</figcaption>
+  <figcaption>Fig. 3: Nicla Sense ME</figcaption>
 </figure>
 
 1. On the PC side, Bosch Sensortec provides the software packages Development Desktop 2.0 and COINES to connect to the sensor on the Application Board.

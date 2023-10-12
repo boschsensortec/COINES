@@ -16,6 +16,7 @@ This mode allows to also perform many time-critical operations on the sensor, su
 
 
 <figure markdown>
+
   ![Image: running example on the MCU of the Application Board](working_princpile_run_on_mcu.drawio)
-  <figcaption>Working principle: running example on the MCU of the Application Board</figcaption>
+  <figcaption>Fig. 5: Working principle: running example on the MCU of the Application Board</figcaption>
 </figure>

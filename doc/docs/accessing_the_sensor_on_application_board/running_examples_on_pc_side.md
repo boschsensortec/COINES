@@ -10,6 +10,7 @@ The drawback is that in this mode the code is not executed in real time, as it r
 To overcome this drawback, the examples can also be run on the MCU side (see next section).
 
 <figure markdown>
+
   ![Image: running example on PC side](working_princpile_run_on_pc.drawio)
-  <figcaption>Working principle: running example on PC side</figcaption>
+  <figcaption>Fig. 4: Working principle: running example on PC side</figcaption>
 </figure>
