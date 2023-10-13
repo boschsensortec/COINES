@@ -14,12 +14,9 @@ BST is the controller responsible for the processing of your data; exceptions ar
 
 Our contact details are as follows: 
 
-Bosch Sensortec GmbH 
-
-Gerhard-Kindler-Strasse 9 
-
-72770 Reutlingen 
-
+Bosch Sensortec GmbH \
+Gerhard-Kindler-Strasse 9 \
+72770 Reutlingen \
 GERMANY 
 
 ## 4. Collection, processing and usage of personal data 
@@ -76,16 +73,17 @@ You have the right to lodge a complaint with a supervisory authority. You can ap
 
 State Commissioner for Data Protection and Freedom of Information  
 
-Address: 
-Lautenschlagerstraße 20 
+Address: \
+Lautenschlagerstraße 20 \
 70173 Stuttgart, GERMANY 
 
 
-Postal address: 
-P.O. Box 10 29 32 
+Postal address: \
+P.O. Box 10 29 32\
 70025 Stuttgart, GERMANY 
-Phone: +49 (711)/615541-0
-Fax: +49 (711)/615541-15 
+
+Phone: +49 (711)/615541-0\
+Fax: +49 (711)/615541-15 \
 Email: poststelle@lfdi.bwl.de 
 
 ## 7. Changes to the Data Protection Notice 
@@ -102,10 +100,10 @@ To notify us about data protection incidents please use this link: [https://www.
 
 For suggestions and complaints regarding the processing of your personal data we recommend that you contact our data protection officer: 
 
-Data Protection Officer
-Information Security and Privacy (C/ISP) 
-Robert Bosch GmbH 
-P.O. Box 30 02 20 
+Data Protection Officer \
+Information Security and Privacy (C/ISP) \
+Robert Bosch GmbH \
+P.O. Box 30 02 20 \
 70442 Stuttgart, GERMANY 
 
 or 
