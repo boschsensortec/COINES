@@ -32,6 +32,7 @@ extra:
       link: https://twitter.com/boschMEMS
 
 nav:
+  - Data Protection Notice for COINES: 'data_protection_notice_for_coines.md'
   - Introduction: 'index.md'
   - Accessing the sensor on the Application Board using C and SensorAPI:
     - Introduction to COINES: 'accessing_the_sensor_on_application_board/introduction_to_coines.md'
@@ -153,8 +154,8 @@ nav:
       - Error Codes: 'py_api/coinespy_api_description/error_codes.md'
   - FAQ: 'faq.md'
   - Legal disclaimer: 'legal_disclaimer.md'
-  
 
+  
 markdown_extensions:
   - toc:
       permalink: true
