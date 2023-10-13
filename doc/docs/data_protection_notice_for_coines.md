@@ -90,7 +90,8 @@ P.O. Box 10 29 32
 
 Phone: +49 (711)/615541-0
 
-Fax: +49 (711)/615541-15  
+Fax: +49 (711)/615541-15 
+ 
 Email: poststelle@lfdi.bwl.de 
 
 ## 7. Changes to the Data Protection Notice 
