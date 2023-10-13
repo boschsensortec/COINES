@@ -44,5 +44,6 @@ This API is used to test the communication.
 coinesboard.echo_test(data: List[int]) -> ErrorCodes
 ```
 Arguments:
+
 - `data`: Data to be sent for testing.
  
