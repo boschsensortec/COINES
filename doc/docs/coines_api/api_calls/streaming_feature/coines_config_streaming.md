@@ -23,22 +23,24 @@ The below parameters should always be set:
 For reading data from I~2~C bus,then set the below parameters:
 	
 - `stream_config.intf = COINES_SENSOR_INTF_I2C;`
-- `stream_config.i2c_bus`: I~2~C bus (in case of APP2.0, this is always `COINES_I2C_BUS_0`)
+- `stream_config.i2c_bus`: I~2~C bus (in case of APP2.0, this is always `COINES_I2C_BUS_0`).
 - `stream_config.dev_addr`: I~2~C address of the sensor.
 
 For reading data from SPI bus, then set the below parameters:
 
 - `stream_config.intf = COINES_SENSOR_INTF_SPI;`
-- `stream_config.spi_bus`: SPI bus (in case of APP2.0, this is always `COINES_SPI_BUS_0`)
+- `stream_config.spi_bus`: SPI bus (in case of APP2.0, this is always `COINES_SPI_BUS_0`).
 - `stream_config.cs_pin`: CS pin of the sensor, information can be obtained from the shuttle board documentation for the sensor. 
 
 When polling mode is requested, set the below parameters:
+
 - `stream_config.sampling_units`:  
-either milliseconds (`COINES_SAMPLING_TIME_IN_MILLI_SEC`)  
-or microseconds (`COINES_SAMPLING_TIME_IN_MICRO_SEC`)
-- `stream_config.sampling_time`: sampling period in the unit as defined in `stream_config.sampling_units`
+either in milliseconds (`COINES_SAMPLING_TIME_IN_MILLI_SEC`)  
+or in microseconds (`COINES_SAMPLING_TIME_IN_MICRO_SEC`)
+
+- `stream_config.sampling_time`: sampling period is in the unit as defined in `stream_config.sampling_units`.
 
 When interrupt mode is requested, set the below parameters:
 
-- `stream_config.int_pin`: pin of the interrupt which shall trigger the sensor read-out. If the interrupt output of the sensor is used, the required information about the pin number can be obtained from the shuttle board documentation for the sensor.
-- `stream_config.int_timestamp`:  it can be configured if the sensor data is tagged with a timestamp (`COINES_TIMESTAMP_ENABLE`) or not (`COINES_TIMESTAMP_DISABLE`).
+- `stream_config.int_pin`: Pin of the interrupt which shall trigger the sensor read-out. If the interrupt output of the sensor is used, the required information about the pin number can be obtained from the shuttle board documentation for the sensor.
+- `stream_config.int_timestamp`:  It can be configured if the sensor data is tagged with a timestamp (`COINES_TIMESTAMP_ENABLE`) or not (`COINES_TIMESTAMP_DISABLE`).

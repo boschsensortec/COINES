@@ -1,4 +1,4 @@
-# coines_timer_config
+# coines_timer_deconfig
 This API is used to de-configure the hardware timer.
  
 ```C

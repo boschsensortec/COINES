@@ -3,9 +3,10 @@
 
 The APP2.0 shuttle board has total 28 pins, of which some have a predefined functionality and some can be used as GPIO by the user.
 
-The shuttle board connector details are given in the table below.
+The shuttle board connector details are given in the table below:
 
-| Pin number on shuttle board | Name / function | Pin number on shuttle board | Name / function |
+
+| Pin number on shuttle board | Name / function | Pin number on shuttle board | Name/function |
 |:---:|----------------------|:----:|---|
 | 1   | VDD (3.3V)           | 28   | SHTLE_COD #4 | 
 | 2   | VDDIO (3.3V)         | 27   | SHTLE_COD #3 | 
@@ -20,8 +21,11 @@ The shuttle board connector details are given in the table below.
 | 11  | SHTLE_COD #6         | 18   | SCL (see note) |  
 | 12  | SHTLE_COD #7         | 17   | SDA (see note)|  
 | 13  | SHTLE_COD #8         | 16   | IO_3 ( GPIO #3 ) | 
-| 14  | IO_1 ( GPIO #1 )     | 15   | IO_2 ( GPIO #2 ) | 
-                    Table 1: Overview of shuttle board pins and their functions
+| 14  | IO_1 ( GPIO #1 )     | 15   | IO_2 ( GPIO #2 ) |
+
+
+
+Table 1: Overview of shuttle board pins and their functions
 
 **Note**:
 

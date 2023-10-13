@@ -7,12 +7,12 @@ int16_t coines_read_stream_sensor_data(uint8_t sensor_id, uint32_t number_of_sam
 
 Arguments:
 
-- `sensor_id`: id of the sensor 
-- `number_of_samples`: number of samples the user wishes to read (not implemented)
-- `data`: data buffer
+- `sensor_id`: id of the sensor. 
+- `number_of_samples`: number of samples the user wishes to read (not implemented).
+- `data`: data buffer.
 	- Interrupt streaming - Packet counter + Register data + Timestamp
-	- Polling streaming - Register data
-- `valid_samples_count`: number of samples the user has actually received (may be less than `number_of_samples`)
+	- Polling streaming - Register data.
+- `valid_samples_count`: number of samples the user has actually received (may be less than `number_of_samples`).
 
 Example of a packet:
 
@@ -24,9 +24,9 @@ Example of a packet:
 
 In the above figure, the following meaning apply to the mentioned abreviations:
 
-- r~p~: Value at register address p
-- a: Size of register block–0
-- r~p+a~: Value at register address p
+- r~p~: Value at register address p.
+- a: Size of register block–0.
+- r~p+a~: Value at register address p.
 
 Similarly is the case for r~q~, j and r~q+j~.
 See the `coines_streaming_blocks` structure for information regarding register blocks.

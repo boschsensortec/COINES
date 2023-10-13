@@ -2,7 +2,7 @@
 
 - Connect the Application Board 3.0 using USB cable to PC.
 - Turn OFF and turn ON the board with T1 pressed.
-- The device will enumerate as an MTP device with name "Application Board 3.0". Click on it and select the "W25M02 External Memory"
+- The device will enumerate as an MTP device with name "Application Board 3.0". Click on it and select the "W25M02 External Memory".
 - The device will list all the available files and all required files can be copied.
 
 <figure markdown>

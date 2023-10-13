@@ -5,6 +5,6 @@
 	  - `chmod +x coines_vX.Y.sh`
 - Ensure that you are connected to the Internet before running the installer, which is executed like this:
     - `./coines_vX.Y.sh`
-- Accept the End User License agreement
-- The installer will prompt you if the required dependencies/packages are not installed.
-(This step requires root privileges.)
+- Accept the End User License agreement.
+- The installer will prompt you if the required dependencies/packages are not installed
+(This step requires root privileges).

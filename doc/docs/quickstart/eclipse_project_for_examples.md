@@ -43,7 +43,7 @@ In Project Explorer window, Right click on the project --> Click Build Project. 
 
 ## Debug project
 
-- Click on Run -> Debug As -> Local C/C++ Application
+- Click on Run --> Debug As --> Local C/C++ Application
 - Once launching is completed, Click on 
     1. Resume button to run the application
     2. Terminate button to stop running the application

@@ -42,8 +42,8 @@ USB DFU protocol and open-source 'dfu-util' is used.
 The code example on the MCU waits until the serial port of the board is opened.
 However, opening the port is not enough, the user has to ensure that also the DTR signal is set (this is required due to have higher compatibiliy among different terminal applications).
 
-## 10. Why some examples can only be compiled for either PC or MCU target?
+## 10. Why can some examples only be compiled for either PC or MCU target?
 
 - Examples which make use of APIs like `coines_config_streaming`, `coines_read_stream_sensor_data` etc., are meant to work only on PC.
 - Use of APIs like `coines_attach_interrupt` in example will make it only compatible with MCU.  
-- Constraints can also be introduced by the use of POSIX C library. Eg:Functions from `time.h`, `pthread.h`, etc .,
+- Constraints can also be introduced by the use of POSIX C library. Eg:Functions from `time.h`, `pthread.h`, etc.

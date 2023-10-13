@@ -5,7 +5,7 @@ Gets the board information.
 int16_t coines_get_board_info(struct coines_board_info *data);
 ```
 
-The data structure contains the following items 
+The data structure contains the following items:
 
 ```C
 struct coines_board_info {
