@@ -14,9 +14,9 @@ BST is the controller responsible for the processing of your data; exceptions ar
 
 Our contact details are as follows : 
 
-Bosch Sensortec GmbH \
-Gerhard-Kindler-Strasse 9 \
-72770 Reutlingen \
+Bosch Sensortec GmbH <br/>
+Gerhard-Kindler-Strasse 9 <br/>
+72770 Reutlingen <br/>
 GERMANY 
 
 ## 4. Collection, processing and usage of personal data 
