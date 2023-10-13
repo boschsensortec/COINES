@@ -1,5 +1,8 @@
 # Error Codes
-Error codes are not (always) returned by the different function calls. Internally, an error_code variable is maintained which is updated after the function call. It can be read out and checked by the user afterwards. Example:
+Error codes are not (always) returned by the different function calls. Internally, an error_code variable is maintained which is updated after the function call. It can be read out and checked by the user afterwards. 
+
+Example:
+
 ```python
 import coinespy as cpy
 board = cpy.CoinesBoard()

@@ -7,6 +7,7 @@ count);
 ```
 
 Arguments:
+
 - bus: I2C bus to be used.
 - dev_addr: I2C device address.
 - data: Data read from the sensor.

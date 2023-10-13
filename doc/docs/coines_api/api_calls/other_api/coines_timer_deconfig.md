@@ -6,4 +6,5 @@ int16_t coines_timer_deconfig(enum coines_timer_instance instance);
 ```
 
 Arguments:
+
 - `instance`: timer instance.
