@@ -12,7 +12,7 @@ Data protection and information security are included in our corporate policy.
 
 BST is the controller responsible for the processing of your data; exceptions are outlined in this data protection notice.  
 
-Our contact details are as follows: 
+Our contact details are as follows : 
 
 Bosch Sensortec GmbH \
 Gerhard-Kindler-Strasse 9 \
