@@ -7,4 +7,4 @@ int16_t coines_read_temp_data(float *temp_data);
         
 Arguments:
 
-- `temp_conv_data`: Buffer to retrieve the sensor data in degree Celsius.
+- `temp_data`: Buffer to retrieve the sensor data in degree Celsius.

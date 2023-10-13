@@ -1,6 +1,6 @@
 # Cross compiling and downloading example to Application Board's microcontroller
 
-1. Make sure that [GNU Embedded Toolchain for ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) is installed on your PC and added to evironmental variable `PATH`
+1. Make sure that [GNU Embedded Toolchain for ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) is installed on your PC and added to evironmental variable `PATH`.
 2. Connect the Application board via USB, with the sensor shuttle board mounted.
 3. Open the command prompt or the terminal.
 4. Use the command `cd` to go to the directory where the example that is to be built is located. 
@@ -17,9 +17,9 @@
     |**Run an example already residing in APP2.0 Flash memory**| **`mingw32-make run`**|
   
  
-Linux/MacOS/Cygwin/MSYS2 users can use `make`
+    Linux/MacOS/Cygwin/MSYS2 users can use `make`.
 
-**NOTE**: Downloading COINES example to APP3.0 Flash memory will overwrite default firmware.
+    **NOTE**: Downloading COINES example to APP3.0 Flash memory will overwrite default firmware.
 
 
 6. Use a Serial Terminal application to view output.
@@ -33,5 +33,5 @@ Linux/MacOS/Cygwin/MSYS2 users can use `make`
 - Some examples may not compile for both PC and MCU target.
 Please refer to the example documentation or simply the example name (e.g. examples that can only be compiled for the PC are named with a following '_pc').
 - The binary on the MCU will be executed once the serial port is opened. The port must be opened including DTR signal set, otherwise the binary will not be executed. Some terminal programs such as HTerm allow explicit setting of the DTR signal.
-- For printing over APP3.0 bluetooth interface, use `fprintf(bt_w,...)`
+- For printing over APP3.0 bluetooth interface, use `fprintf(bt_w,...)`.
 

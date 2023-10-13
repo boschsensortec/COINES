@@ -3,9 +3,9 @@
 Bosch Sensortec recommends using the SensorAPI in order to communicate with the sensors.
 The SensorAPI , an abstraction layer written in C makes it much more convenient for the user to access the register map of the sensor in order to configure certain functionality and obtain certain information from it.
 
-For making use of the SensorAPI, three function pointers must be set to the appropriate read/write functions of the selected bus on the system (either I\textsuperscript{2}C or SPI), as well as one function pointer to a system's function causing delays in milliseconds.
+For making use of the SensorAPI, three function pointers must be set to the appropriate read/write functions of the selected bus on the system (either I~2~C or SPI), as well as one function pointer to a system's function causing delays in milliseconds.
 
-In order to execute C code using SensorAPI on a PC, the coinesAPI provides the mentioned read,write,delay functions. These functions are wrapper functions, embedding the actual SensorAPI payloads into a transport package, sending this via USB to the APP2.0, where the payload is translated into corresponding SPI or I\textsuperscript{2}C messages and sent to the sensor on the shuttle board.
+In order to execute C code using SensorAPI on a PC, the coinesAPI provides the mentioned read,write,delay functions. These functions are wrapper functions, embedding the actual SensorAPI payloads into a transport package, sending this via USB to the APP2.0, where the payload is translated into corresponding SPI or I~2~C messages and sent to the sensor on the shuttle board.
 The mapping would look similar to the one below.
 
 ```C

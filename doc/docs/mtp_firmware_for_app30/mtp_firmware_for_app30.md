@@ -15,11 +15,11 @@ Use of custom protocol to do filesystem operations would mean re-inventing the w
 User also would not have the same experience as with USB Mass Storage.
 
 Solution was to go with the "Media Transfer Protocol" developed initially by Microsoft for Portable Devices like MP3 players.
-Starting from Android Kitkat (v4.4),MTP is the only way to access files on an Android device since the whole flash memory (included user storage space) uses filesystems like ext4, YAFFS, F2FS, etc.,
+Starting from Android Kitkat (v4.4), MTP is the only way to access files on an Android device since the whole flash memory (included user storage space) uses filesystems like ext4, YAFFS, F2FS, etc.
 
 Files in APP3.0 board's NAND flash memory can be viewed using the USB MTP firmware.
 
-Supported on Windows, Linux, Android (via USB OTG) and macOS
+Supported on Windows, Linux, Android (via USB OTG) and macOS.
 
 <figure markdown>
 

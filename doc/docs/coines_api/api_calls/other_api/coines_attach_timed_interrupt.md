@@ -11,5 +11,5 @@ Arguments:
 
 - `pin_number`: Multi-IO pin.
 - `timed_interrupt_cb`:  Name of the function to be called on detection of interrupt.
-- `int_mode`: Trigger modes - change,rising edge,falling edge.
+- `int_mode`: Trigger modes - change, rising edge,  falling edge.
 

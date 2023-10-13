@@ -3,9 +3,9 @@
 - Code download to FLASH.
 - Works with PC and mobile devices with iOS/Android.
 
-Bootloader was written taking into account the following aspects
+Bootloader was written taking into account the following aspects : 
 
-- Usability.
+- Usability
 	1. No special driver installation or admin rights should be required.
 	2. The update process should be straight forward.
 - Maintainability

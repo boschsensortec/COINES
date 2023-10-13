@@ -9,27 +9,31 @@ stream_config: StreamingConfig, data_blocks: StreamingBlocks) -> ErrorCodes
 ```
 
 Arguments:
+
 - `sensor_id` : An integer number that can be used as identifier/index to the sensor data that will
 be streamed for this setting.  
 - `stream_config` : Contains information regarding interface settings and streaming configuration.
 - `data_blocks` : Contains information regarding numbers of blocks to read, register address and
 size for each block.
 
-Note:
+**Note:**
 
 The below parameters should always be set:
+
 - `data_blocks.NoOfBlocks` :  number of blocks to stream (must at least be one).
 - For each block b:
   - `data_blocks.RegStartAddr[b]` : start address of the block in the register map
   - `data_blocks.NoOfDataBytes[b]` :  number of bytes to read, starting from the start address
 
 For reading data from I~2~C bus,then set the below parameters:
+
 - `stream_config.Intf` = `cpy.SensorInterface.I2C.value`
 - `stream_config.I2CBus` : I2C bus (in case of APP2.0 and APP3.0, this is always
 `cpy.I2CBus.BUS_I2C_0.value`)
 - `stream_config.DevAddr` : I2C address of the sensor
 
 For reading data from SPI bus, then set the below parameters:
+
 - `stream_config.Intf` = ` cpy.SensorInterface.SPI.value`;
 - `stream_config.SPIBus` : SPI bus (in case of APP2.0 and APP3.0, this is always
 `cpy.SPIBus.BUS_SPI_0.value`)
@@ -38,11 +42,13 @@ board documentation for the sensor.
 - `stream_config.SPIType`: 0 : 8-bit SPI; 1 : 16-bit SPI
 
 When polling mode is requested, set the below parameters:
+
 - `stream_config.SamplingUnits` : either milliseconds or microseconds. Refer to [11.3.6.15](../definition_of_constants.md/#samplingunits).
 - `stream_config.SamplingTime` : Sampling period in the unit as defined in
 `stream_config.SamplingUnits`.
 
 When interrupt mode is requested, set the below parameters:
+
 - ``stream_config.IntPin`` : pin of the interrupt which shall trigger the sensor read-out. If the
 interrupt output of the sensor is used, the required information about the pin number can be
 obtained from the shuttle board documentation for the sensor.
@@ -50,12 +56,14 @@ obtained from the shuttle board documentation for the sensor.
 - `stream_config.HwPinState`: State of the hardware pin connected to the interrupt line - 0/1 : Low/high
 
 Below parameters are common for both streaming types:
+
 - ``stream_config.IntlineCount`` : Number of interrupt lines to be used for monitoring interrupts.
 - ``stream_config.IntlineInfo`` : List of pin numbers that correspond to interrupt lines being used
 for interrupt monitoring.
 - ``stream_config.ClearOnWrite`` : 0/1 : Disable/enable "clear on write" feature.
 
 The below parameters should be set only when stream_config.ClearOnWrite = 1:
+
 - ``stream_config.ClearOnWriteConfig.StartAddress``: Address of the sensor register at which
 the process of clearOnWrite should initiate.
 - ``stream_config.ClearOnWriteConfig.DummyByte``: Number of padding bytes that must be added before clearing the bytes starting from the designated address.
