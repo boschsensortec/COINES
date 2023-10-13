@@ -73,17 +73,17 @@ You have the right to lodge a complaint with a supervisory authority. You can ap
 
 State Commissioner for Data Protection and Freedom of Information  
 
-Address: \
-Lautenschlagerstraße 20 \
+Address: <br/>
+Lautenschlagerstraße 20 <br/>
 70173 Stuttgart, GERMANY 
 
 
-Postal address: \
-P.O. Box 10 29 32\
-70025 Stuttgart, GERMANY 
+Postal address: <br/>
+P.O. Box 10 29 32 <br/>
+70025 Stuttgart, GERMANY  
 
-Phone: +49 (711)/615541-0\
-Fax: +49 (711)/615541-15 \
+Phone: +49 (711)/615541-0 <br/>
+Fax: +49 (711)/615541-15  <br/>
 Email: poststelle@lfdi.bwl.de 
 
 ## 7. Changes to the Data Protection Notice 
@@ -100,14 +100,12 @@ To notify us about data protection incidents please use this link: [https://www.
 
 For suggestions and complaints regarding the processing of your personal data we recommend that you contact our data protection officer: 
 
-Data Protection Officer \
-Information Security and Privacy (C/ISP) \
-Robert Bosch GmbH \
-P.O. Box 30 02 20 \
-70442 Stuttgart, GERMANY 
-
-or 
-
+Data Protection Officer <br/>
+Information Security and Privacy (C/ISP) <br/>
+Robert Bosch GmbH <br/>
+P.O. Box 30 02 20 <br/>
+70442 Stuttgart, GERMANY <br/>
+or <br/>
 Email: DPO@bosch.com 
 
 ## Effective date 
