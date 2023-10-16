@@ -11,7 +11,7 @@ board.
   ![Image: APP2.0 shuttle board](BMI160.png){ width=300}  
 
   ![Image: APP3.0 shuttle board](bma456_shuttle_board.png)
-  {width=200}
+  {width=50}
 
   <figcaption>Fig. 1: APP2.0/3.0 shuttle board</figcaption>
 </figure>
