@@ -9,7 +9,7 @@ board.
 <figure markdown>
 
   ![Image: APP2.0 shuttle board](BMI160.png){ width="300", text-align : left}  
-  ![Image: APP3.0 shuttle board](bma456_shuttle_board.png){ width="400" , text-align : right}
+  ![Image: APP3.0 shuttle board](bma456_shuttle_board.png){ width="600" , text-align : right}
   <figcaption>Fig. 1: APP2.0/3.0 shuttle board</figcaption>
 </figure>
 
