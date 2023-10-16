@@ -8,8 +8,8 @@ board.
 
 <figure markdown>
 
-  ![Image: APP2.0 shuttle board](BMI160.png){ width="300"; text-align : left}  
-  ![Image: APP3.0 shuttle board](bma456_shuttle_board.png){ width="500" ; text-align : right}
+  ![Image: APP2.0 shuttle board](BMI160.png){ width="300"}  
+  ![Image: APP3.0 shuttle board](bma456_shuttle_board.png){ width="300" ; height="300"}
   <figcaption>Fig. 1: APP2.0/3.0 shuttle board</figcaption>
 </figure>
 
