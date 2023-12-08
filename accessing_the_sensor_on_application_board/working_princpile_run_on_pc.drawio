@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="8VCpss-FVILqFPgny7ja" name="Page-1">
+        <mxGraphModel dx="992" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-3" value="&lt;h4&gt;Application Board&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="310" width="150" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-4" value="&lt;b&gt;firmware.fwu2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="385" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-5" value="Shuttle board" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="290" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-6" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="270" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-7" value="&lt;h4&gt;PC (host)&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="180" width="220" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-8" value="&lt;h4&gt;example.exe&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="230" width="180" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-9" value="&lt;h4&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;example.c&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="470" y="280" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-10" value="SensorAPI" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;spacing=2;spacingTop=0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="330" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-11" value="COINES API" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;spacing=2;spacingTop=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="360" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="g5dJ3lTWeKkPB1iucdt4-12" value="WinUSB, libUSB, BST" style="rounded=0;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;glass=0;verticalAlign=top;align=left;spacingLeft=10;spacing=2;spacingTop=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="390" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5dJ3lTWeKkPB1iucdt4-4" target="g5dJ3lTWeKkPB1iucdt4-12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="390" y="420" as="sourcePoint"/>
+                        <mxPoint x="440" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="USB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="380" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
