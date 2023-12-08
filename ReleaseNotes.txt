@@ -21,7 +21,6 @@ Updates
 * Added streaming API support in coinespy.
 * Added coines support for 'NICLA SENSE ME' board.
 * Added timer counter support for app20
-* Updated nRF5 SDK to 17.1.0
 
 Known limitation:
 * As part of multi-instance, either one of SPI0 or SPI1 bus is allowed to be configured in an application since the external flash occupies other SPI instance already. 
