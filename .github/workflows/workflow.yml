@@ -1,53 +1,42 @@
-name: Publish Python 🐍 distribution 📦 to PyPI and TestPyPI
+name: Test on TestPyPI
 
-on: push
+on:
+  push:
+    branches:
+      - test-pypi
+  pull_request:
+    branches:
+      - test-pypi
 
 jobs:
-  build:
-    name: Build distribution 📦
+  test:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
-        python-version: "3.x"
-    - name: Install pypa/build
-      run: >-
-        python3 -m
-        pip install
-        build
-        --user
-    - name: Build a binary wheel and a source tarball
-      run: cd coines-api/pc/python
-      python3 -m build
-    - name: Store the distribution packages
-      uses: actions/upload-artifact@v3
-      with:
-        name: python-package-distributions
-        path: dist/
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        cd coines-api/pc/python
+        python -m pip install --upgrade pip
+        pip install twine
 
-  publish-to-testpypi:
-    name: Publish Python distribution to TestPyPI
-    needs:
-    - build
-    runs-on: ubuntu-latest
+    - name: Build and upload to TestPyPI
+      run: |
+        cd coines-api/pc/python
+        python setup.py sdist bdist_wheel
+        twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
-    environment:
-      name: testpypi
-      url: https://test.pypi.org/p/coinespy
+    - name: Test installation from TestPyPI
+      run: |
+        pip install --index-url https://test.pypi.org/simple/ coinespy
 
-    permissions:
-      id-token: write  
-
-    steps:
-    - name: Download all the dists
-      uses: actions/download-artifact@v3
-      with:
-        name: python-package-distributions
-        path: dist/
-    - name: Publish distribution 📦 to TestPyPI
-      uses: pypa/gh-action-pypi-publish@release/v1
-      with:
-        repository-url: https://test.pypi.org/legacy/
+    - name: Cleanup
+      run: |
+        rm -rf dist
