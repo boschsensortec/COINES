@@ -32,7 +32,8 @@ jobs:
         cd coines-api/pc/python
         python -m pip install -r requirements.txt
         pip install setuptools
-        python setup.py sdist bdist_wheel
+        python setup.py sdist upload -r local
+        python setup.py bdist_wheel upload -r local
         twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
     - name: Test installation from TestPyPI
