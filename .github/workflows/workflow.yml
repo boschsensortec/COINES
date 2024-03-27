@@ -34,7 +34,6 @@ jobs:
       run: |
         cd coines-api/pc/python
         python setup.py sdist 
-        python setup.py bdist_wheel
         twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
     - name: Test installation from TestPyPI
