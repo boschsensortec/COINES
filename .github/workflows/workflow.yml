@@ -26,15 +26,14 @@ jobs:
         cd coines-api/pc/python
         python -m pip install --upgrade pip
         pip install twine
-        python -m pip install -r requirements.txt
+        pip install -r requirements.txt
         pip install setuptools
-
 
     - name: Build and upload to TestPyPI
       run: |
         cd coines-api/pc/python
-        python setup.py sdist 
-        twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        python setup.py sdist bdist_wheel
+        TWINE_PASSWORD=$PYPI_TOKEN twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
     - name: Test installation from TestPyPI
       run: |
