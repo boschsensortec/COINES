@@ -32,8 +32,8 @@ jobs:
     - name: Build and upload to TestPyPI
       run: |
         cd coines-api/pc/python
-        python setup.py sdist bdist_wheel
-        TWINE_PASSWORD=$PYPI_TOKEN twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        python -m build
+        twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
     - name: Test installation from TestPyPI
       run: |
