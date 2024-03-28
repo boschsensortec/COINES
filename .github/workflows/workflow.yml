@@ -32,7 +32,8 @@ jobs:
     - name: Build and upload to TestPyPI
       run: |
         cd coines-api/pc/python
-        python setup.py sdist bdist_wheel
+        python setup.py sdist upload -r local
+        python setup.py bdist_wheel upload -r local
         twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
     - name: Test installation from TestPyPI
