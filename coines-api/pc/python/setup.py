@@ -10,28 +10,39 @@
 - Read and write digital pins of the Application Board.
 
 """
-
+import shutil
 import setuptools
 
 DOCLINES = (__doc__ or '').split("\n")
 
+shutil.copytree("../../../firmware", "firmware", dirs_exist_ok=True)
+shutil.copytree("../../../tools", "tools", dirs_exist_ok=True)
 setuptools.setup(
     name="coinespy",
-    version="1.0.0",
+    version="1.0.1",
     author="Bosch Sensortec GmbH",
     author_email="contact@bosch-sensortec.com",
-    description=DOCLINES[0],
-    long_description="\n".join(DOCLINES[2:]),
     url="https://www.bosch-sensortec.com/",
-    packages=['coinespy'],
+    packages=['coinespy', 'firmware', 'tools'],
     package_data={'coinespy': ['libcoines_64.dll',
                                'libcoines_32.dll',
                                'libcoines_64.so',
                                'libcoines_32.so',
-                               'libcoines_64.dylib',
-                               'libcoines_32.dylib',
-                               'libcoines_armv7_32.so']
+                               'libcoines_arm_64.dylib',
+                               'libcoines_arm_32.dylib',
+                               'libcoines_i386_64.dylib',
+                               'libcoines_i386_32.dylib',
+                               'libcoines_armv7_32.so',
+                               'bin/*'],
+                  'firmware': ['nicla/coines_bridge/*'
+                               'app2.0/coines_bridge/*',
+                               'app3.0/coines_bridge/*',
+                               'firmware/app3.1/coines_bridge/*'],
+                  'tools': ['usb-dfu/*', 'app20-flash/*.exe',
+                            'app_switch/README.md', 'app_switch/*.exe',
+                            'openocd/*']
                   },
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 2",
